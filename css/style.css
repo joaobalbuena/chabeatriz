@@ -306,7 +306,8 @@ Mimos
 .mimos-c__img img {
   display: flex;
   justify-content: center;
-  padding: 30px;
+  align-items: center;
+  padding: 5px;
 }
 
 /*********************
