@@ -1,0 +1,331 @@
+/* Configurações gerais de reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/******************************
+Variaveis /fontes /cores
+*************************/
+@font-face {
+  font-family: 'Baby';
+  src: url(../fonts/Baby\ sweet\ Script.otf);
+}
+
+:root {
+  --texto-geral: Arial, sans-serif;
+
+  --titulos: 'Lobster';
+  --fonth2: 'Baby';
+  --corfundo: #fcd9f7;
+  --cortitulo: #801E72;
+  --corsecao: #F58EE5;
+  --corheader: #fff;
+} 
+/*************************
+Estilos gerais
+*****************/
+
+body {
+  background-color: var(--corfundo);
+}
+
+a {
+  color: rgb(233, 15, 215);
+}
+ 
+ .nav ul li  {
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+}
+
+hr {
+  background-color: rgb(255, 0, 119);
+  border: none;
+  height: 2px;
+  width: 160px;
+  margin: 20px auto;
+}
+
+p {
+  line-height: 21.82px;
+  padding: 0 10px;
+  text-align: justify;
+}
+
+.section__titulo {
+  font-family: var(--fonth2);
+  font-size: 1.2em;
+  color: rgb(247, 15, 200);
+  letter-spacing: 3px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+
+/***********************
+Menu
+******************/
+
+.menu-bg {
+  background-color: var(--corheader);
+  padding: 15px 20px; 
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.menu__logo img {
+  width: 85%;
+  padding: 5px;
+}
+
+.nav__lista {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav__link {
+  padding: 20px 10px;
+  text-shadow: 2px 2px 4px pink;
+  font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 1.5em;
+}
+
+.nav__link:hover {
+  background-color: #ffdcfa;
+  padding: 5px 2px;
+  border: 3px solid pink;
+}
+
+/**************************
+Header
+*******************/
+
+.intro {
+  font-family: 'Lobster Two', cursive;
+  color: rgb(247, 15, 200);
+  font-size: 1.5em;
+  padding: 15px;
+  text-shadow: 2px 2px 1px #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*************************
+Principal topo - Banner
+******************/
+
+.principal {
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  display: flex;
+  padding: 5px;
+}
+
+/***************************
+Conteudo - Home
+**********************/
+  
+.conteudo {
+  max-width: 960px;
+  margin: 0 auto;
+  
+}
+
+.home-c {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+.home-c__texto {
+  flex: 3 1 100px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 100;
+  font-family: Arial, sans-serif;
+  text-indent: 15px;
+  
+}
+
+.home-c__img {
+  flex: 1 1 350px;
+  padding: 15px 80px;
+}
+
+.home-c__texto h2 {
+  font-family: var(--fonth2);
+  font-size: 1.2em;
+  color: rgb(247, 15, 200);
+  text-shadow: 2px 2px 1px #fff;
+  letter-spacing: 3px;
+  margin-left: 15px;
+}
+
+/***************************
+Charreata - seção
+*******************/
+
+.charreata {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.charreata-c {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fff;
+}
+
+.charreata-c__texto {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 2px;
+  margin: 10px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #F58EE5;
+  
+}
+
+button a {
+  text-decoration: none;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000;
+
+}
+
+.charreata-c__mapa {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding-left: 5px;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.charreata-c__mapa h2 {
+  display: flex;
+  font-family: 'Lobster Two', cursive;
+  color: #fff;
+  text-shadow: 2px 1px 4px #0e0e0e;
+  display: inline-block;
+  background-color: #F58EE5;
+  padding: 20px;
+  border: 2px solid pink;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.charreata-c__mapa iframe {
+  align-content: center;
+  max-width: 430px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+
+.charreata-c__img img {
+  padding: 15px;
+  margin: 10px;
+  
+ 
+  
+}
+
+/**********************
+Mimos
+**************/
+
+.mimos {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.mimos-c {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fff;
+}
+
+.mimos-c__img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 80px;
+}
+
+.mimos-c__texto {
+  display: flex;
+  background-color: #801E72;
+  flex-direction: column;
+  line-height: 1.5px;
+  flex-wrap: wrap;
+  text-indent: 8px;
+  text-align: justify;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 2px;
+  margin: 10px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+
+.mimos-c__img img {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+/*********************
+Rodapé
+***********/
+
+footer {
+  max-width: 960px;
+  background-color: #fff;
+  margin: 0 auto;
+  height: 70px;
+ 
+}
+
+.rodape p {
+  color:rgb(233, 15, 215);
+  text-align: left;
+  padding-top: 30px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
