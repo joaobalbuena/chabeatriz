@@ -82,7 +82,7 @@ Menu
   justify-content: space-between;
   max-width: 960px;
   margin: 0 auto;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .menu__logo img {
@@ -247,7 +247,7 @@ button a {
 
 .charreata-c__mapa iframe {
   align-content: center;
-  max-width: 430px;
+  max-width: 320px;
   margin: 0 auto;
   padding-top: 40px;
 }
